@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">business_catalogue</string>
+    <string name="loginTxt">Login</string>
+    <string name="email">Email</string>
+    <string name="passwordTxt">Password</string>
+    <string name="loginBtn">Login</string>
+    <string name="signup">Signup</string>
+    <string name="signupEmail">Email</string>
+    <string name="signupPassword">Password</string>
+    <string name="signUpName">Name</string>
+    <string name="signUpBtn">Signup</string>
+    <string name="userName">Username</string>
+    <string name="person">Person</string>
+    <string name="lock">Lock</string>
+    <string name="eye">Eye</string>
+    <string name="Home">Home</string>
+    <string name="Profile">Profile</string>
+    <string name="Settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

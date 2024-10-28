@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C94CE8"
+    tools:context=".HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="54dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="29dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/dashboard_24dp_e8eaed_fill0_wght400_grad0_opsz24"
+            app:layout_constraintEnd_toStartOf="@+id/editTextText2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="277dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="25dp"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:hint="Search"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView5"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="22dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="373dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/search_24dp_e8eaed_fill0_wght400_grad0_opsz24"
+            app:layout_constraintBottom_toTopOf="@+id/editTextText2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="255dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="209dp"
+            android:layout_marginBottom="558dp"
+            android:text="Dashboard"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#FDFFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

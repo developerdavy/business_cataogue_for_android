@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/Home"
+        android:icon="@drawable/home_24dp_e8eaed_fill0_wght400_grad0_opsz24"
+        android:id="@+id/homeIcon"/>
+    <item android:id="@+id/settingsIcon"
+        android:title="@string/Settings"
+        android:icon="@drawable/settings_24dp_e8eaed_fill0_wght400_grad0_opsz24"
+        />
+    <item android:title="@string/Profile"
+        android:icon="@drawable/person_24dp_e8eaed_fill0_wght400_grad0_opsz24"
+        android:id="@+id/profile"/>
+</menu>
